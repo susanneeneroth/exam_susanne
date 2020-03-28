@@ -143,6 +143,7 @@ body {
 
 .header-logo {
     margin: 20px 0 0 23px;
+    
 }
 
 /* navigation */
@@ -419,7 +420,7 @@ body {
     .section-one {
         max-width: 500px;
         width: 100%;
-        height: 4500px;
+        height: 1500px;
         background-image: url("../images/hero-image_ed.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -431,7 +432,7 @@ body {
         height: 300px;
         position: absolute;
         top: 15%;
-        left: 20%;
+        left: 25%;
         padding: 25px;
         box-sizing: border-box;
     }
@@ -522,6 +523,28 @@ body {
         font-size: 12px;
         margin-left: 20px;
         line-height: 1.5;
+    }
+
+    .purple-button {
+        background-image: url("../images/purple-bkg-btn.png");
+        background-color: $purple-color;
+        padding: 13px;
+        font-size: 12px;
+        border: none;
+        text-align: center;
+        font-family: $josefin-font;
+        font-weight: 300;
+        color: #ffffff;
+        margin: 20px;
+    }
+
+    .section-six--heading {
+        color: #ffffff;
+        font-family: $josefin-font;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 20px 0 10px 20px;
+        width: 70%;
     }
 }
 
