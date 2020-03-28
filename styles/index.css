@@ -522,7 +522,7 @@ body {
   }
   .navigation-container li {
     display: inline-block;
-    font-size: 12px;
+    font-size: 10px;
   }
   .navigation-container a {
     text-decoration: none;
@@ -534,6 +534,7 @@ body {
   .header-logo {
     margin: 20px 0 0 23px;
     width: 100%;
+    height: auto;
   }
   .header-container {
     width: 80%;
@@ -548,6 +549,11 @@ body {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+  }
+  .section-two--paragraph {
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 1.5;
   }
 }
 /*# sourceMappingURL=index.css.map */

@@ -490,7 +490,7 @@ body {
 
     .navigation-container li {
         display: inline-block;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .navigation-container a {
@@ -504,6 +504,7 @@ body {
     .header-logo {
         margin: 20px 0 0 23px;
         width: 100%;
+        height: auto;
     }
 
     .header-container {
@@ -515,6 +516,12 @@ body {
 
     .header--logo-container {
         flex: 1;
+    }
+
+    .section-two--paragraph {
+        font-size: 12px;
+        margin-left: 20px;
+        line-height: 1.5;
     }
 }
 
